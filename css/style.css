@@ -87,8 +87,23 @@ section.sobre{
     margin: 20px 0px;
 }
 
+.social-media img:hover{
+    background-color: white;
+    width: 35px;
+    border-radius: 5px;
+    
+}
+
+.center2{
+    position: relative;
+    width: 50%; 
+    bottom: 100px;
+
+}
+
 .texto-sobre{
     margin-top: 100px;
+    margin-left: 70px;
 }
 
 .texto-sobre h1{
@@ -98,9 +113,10 @@ section.sobre{
 .texto-sobre p{
     margin: 20px 0;
     color: black;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: bold;
     max-width: 800px;
+    text-align: justify;
 }
 
 .texto-sobre button{
@@ -108,9 +124,21 @@ section.sobre{
     background-color: #017143;
     color: white;
     border-radius: 10px;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     cursor: pointer;
+}
+
+button{
+    position: relative;
+    margin-top: 40px;
+    left: 200px;
+    font-weight: bold;
+    
+}
+
+button:hover{
+    color:black;
 }
 
 
